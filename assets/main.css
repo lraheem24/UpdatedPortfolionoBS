@@ -1,0 +1,111 @@
+/* (64 sloc) 2.16 KB html {
+    background: rgb(169, 3, 41);
+    /* Old browsers */
+
+
+/* background: -moz-linear-gradient(top, rgba(169, 3, 41, 1) 0%, rgba(143, 2, 34, 1) 44%, rgba(109, 0, 25, 1) 100%);
+    /* FF3.6-15 */
+
+
+/* background: -webkit-linear-gradient(top, rgba(169, 3, 41, 1) 0%, rgba(143, 2, 34, 1) 44%, rgba(109, 0, 25, 1) 100%); */
+
+
+/* Chrome10-25,Safari5.1-6 */
+
+
+/* background: linear-gradient(to bottom, rgba(169, 3, 41, 1) 0%, rgba(143, 2, 34, 1) 44%, rgba(109, 0, 25, 1) 100%); */
+
+
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+/* filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=0); */
+
+
+/* IE6-9 */
+
+
+/* } */
+
+
+/* html:hover {
+    background: linear-gradient(#C1D279, #BF4040)
+} */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(50px, auto);
+    padding: .5em;
+    text-align: center;
+    line-height: 24px;
+    font-size: 24px;
+    font-family: 'Kirang Haerang', cursive;
+}
+
+.wrapper>div {
+    background-color: #594F4F;
+    /* background: linear-gradient(to top, #D27D79, #40B8BF); */
+    padding: 1em
+}
+
+.wrapper>div:nth-child(odd) {
+    background-color: rgb(179, 21, 21)
+}
+
+#wrpOne>div:nth-of-type(2) {
+    order: 1
+}
+
+#wrpOne>div:nth-of-type(3) {
+    order: 3
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/* Add a background color and some padding around the form */
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
